@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Mac",
+      "compilerPath": "/usr/bin/clang++",
+      "intelliSenseMode": "macos-clang-arm64",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
+        "/opt/homebrew/include",
+        "/opt/homebrew/opt/glfw/include",
+        "/opt/homebrew/opt/glew/include",
+        "/opt/homebrew/opt/glm/include"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "${workspaceFolder}/include",
+          "/opt/homebrew/include",
+          "/opt/homebrew/opt/glfw/include",
+          "/opt/homebrew/opt/glew/include",
+          "/opt/homebrew/opt/glm/include",
+          "/usr/local/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
